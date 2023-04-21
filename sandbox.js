@@ -20,16 +20,16 @@ const run = async () => {
   // await decreaseProductQuantity("p1");
   // await getCartSize();
 
-  // LEADERBOARD
+  // LEADERBOARD ---------
   // await addPlayer("player1", 5);
   // await addPlayer("player2", 3);
   // await addPlayer("player3", 8);
 
   // await adjustScore("player1", 2);
-  // await adjustScore("player3", -14);
+  // await adjustScore("player3", -4);
 
-  const top2 = await getTop2();
-  console.log("🚀 ~ file: sandbox.js:32 ~ run ~ top2:", top2);
+  // const top2 = await getTop2();
+
   console.log("Finish");
 };
 
