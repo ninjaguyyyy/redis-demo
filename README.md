@@ -1,0 +1,3 @@
+# redis-demo
+- Using Redis to caching data from DB
+- Practice with some data types in Redis, such as: hashes, sets, sorted sets, ...
