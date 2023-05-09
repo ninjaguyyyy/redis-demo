@@ -14,7 +14,7 @@ const fetchPosts = async () => {
 app.get("/posts", getCache, async (req, res) => {
   const posts = await fetchPosts();
 
-  client.set("posts", JSON.stringify(posts));
+  await client.set("posts", JSON.stringify(posts));
   res.json({ data: posts });
 });
 
